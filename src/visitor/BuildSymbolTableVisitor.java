@@ -15,6 +15,16 @@ public class BuildSymbolTableVisitor extends GJDepthFirst<MType, MType> {
         this.errorPrinter = errorPrinter;
     }
 
+    boolean checkExtendMainClass(MType id, MType parentId) {
+        /*
+        if (parentId.getName().equals(classList.getMainClassName())) {
+            errorPrinter.print(id.getName() + " extends from MainClass", id.getRow(), id.getCol());
+            throw new TypeCheckException();
+        }
+         */
+        return false;
+    }
+
     boolean addVar(MIdentifier n, MVar newVar) {
         if (n.addVar(newVar) != 0) {
             errorPrinter.print("Variable " + newVar.getName() + " duplicate definition", newVar.getRow(), newVar.getCol());
@@ -143,10 +153,7 @@ public class BuildSymbolTableVisitor extends GJDepthFirst<MType, MType> {
         MType id = n.f1.accept(this, argu);
         n.f2.accept(this, argu);
         MType parentId = n.f3.accept(this, argu);
-        if (parentId.getName().equals(classList.getMainClassName())) {
-            errorPrinter.print(id.getName() + " extends from MainClass", id.getRow(), id.getCol());
-            throw new TypeCheckException();
-        }
+        checkExtendMainClass(id, parentId);
         MClass newClass = new MClass(id.getName(), parentId.getName(), id.getRow(), id.getCol());
         addClass(newClass);
 

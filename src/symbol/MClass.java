@@ -38,6 +38,12 @@ public class MClass extends MIdentifier {
     }
 
     public MMethod getMethod(String id) {
-        return methodHashMap.get(id);
+        if (methodHashMap.get(id) != null) {
+            return methodHashMap.get(id);
+        }
+        if (this.getParent() != null) {
+            return ((MClass)this.getParent()).getMethod(id);
+        }
+        return null;
     }
 }

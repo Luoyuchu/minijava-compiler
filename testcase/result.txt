@@ -1,0 +1,258 @@
+Pass!
+BinaryTree-error.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:90 col:9\n']
+Pass!
+BinaryTree.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+BubbleSort-error.java  :  ['0\n', 'Type check failed!\n', 'Variable is not found sz1 at line:76 col:9\n']
+Pass!
+BubbleSort.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+Factorial-error.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:5 col:38\n']
+Pass!
+Factorial.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+LinearSearch-error.java  :  ['0\n', 'Type check failed!\n', 'Not a int[] at line:12 col:9\n']
+Pass!
+LinearSearch.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+LinkedList-error.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:108 col:9\n']
+Pass!
+LinkedList.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+MoreThan4-error.java  :  ['0\n', 'Type check failed!\n', 'Parameter wrong at line:8 col:67\n']
+Pass!
+MoreThan4.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+QuickSort-error.java  :  ['0\n', 'Type check failed!\n', 'Not a int[] at line:13 col:9\n']
+Pass!
+QuickSort.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+TreeVisitor-error.java  :  ['0\n', 'Type check failed!\n', 'Variable is not found r at line:339 col:6\n']
+Pass!
+TreeVisitor.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+AssignType-error.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:8 col:11\n']
+Pass!
+CircleExtend-error.java  :  ['0\n', 'Type check failed!\n', 'Circle extend A at line:16 col:7\n']
+Pass!
+ClassToSub-error.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:11 col:11\n']
+Pass!
+DuplicateClass-error.java  :  ['0\n', 'Type check failed!\n', 'Class Start duplicate definition at line:11 col:7\n']
+Pass!
+DuplicateVar-error.java  :  ['0\n', 'Type check failed!\n', 'Variable i duplicate definition at line:14 col:7\n']
+Pass!
+IfType-error.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:8 col:7\n']
+Pass!
+IndexType-error.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:9 col:11\n']
+Pass!
+NoDefine-error.java  :  ['0\n', 'Type check failed!\n', 'Variable is not found a at line:8 col:4\n']
+Pass!
+OverLoad-error.java  :  ['0\n', 'Type check failed!\n', 'Class overload start at line:13 col:13\n']
+Pass!
+PrintBool-error.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:8 col:22\n']
+Pass!
+SubToClass.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+ttt0.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+WrongParameter-error.java  :  ['0\n', 'Type check failed!\n', 'Parameter wrong at line:11 col:14\n']
+Pass!
+test00.java  :  ['0\n', 'Type check failed!\n', 'Class overload next at line:9 col:20\n']
+Pass!
+test01.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test02.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test03.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test04.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test05.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test06.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test07.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test08.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test09.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test10.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test11.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:20 col:22\n']
+Pass!
+test12.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:20 col:21\n']
+Pass!
+test13.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:20 col:22\n']
+Pass!
+test14.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:20 col:22\n']
+Pass!
+test15.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:20 col:22\n']
+Pass!
+test16.java  :  ['0\n', 'Type check failed!\n', 'Variable is not found op at line:11 col:21\n']
+Pass!
+test17.java  :  ['0\n', 'Type check failed!\n', 'Variable is not found op at line:19 col:11\n']
+Pass!
+test18.java  :  ['0\n', 'Type check failed!\n', 'Not a int[] at line:11 col:6\n']
+Pass!
+test19.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:15 col:7\n']
+Pass!
+test20.java  :  ['0\n', 'Type check failed!\n', 'Not a class at line:13 col:8\n']
+Pass!
+test21.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:15 col:5\n']
+Pass!
+test22.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:12 col:7\n']
+Pass!
+test23.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:17 col:10\n']
+Pass!
+test24.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:13 col:12\n']
+Pass!
+test25.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:13 col:8\n']
+Pass!
+test26.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:14 col:17\n']
+Pass!
+test27.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test28.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:13 col:12\n']
+Pass!
+test29.java  :  ['0\n', 'Type check failed!\n', 'Not a class at line:14 col:13\n']
+Pass!
+test30.java  :  ['0\n', 'Type check failed!\n', 'Not a class at line:13 col:13\n']
+Pass!
+test31.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:13 col:15\n']
+Pass!
+test32.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:12 col:8\n']
+Pass!
+test33.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:16 col:20\n']
+Pass!
+test34.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:11 col:21\n']
+Pass!
+test35.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:9 col:10\n']
+Pass!
+test36.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:13 col:26\n']
+Pass!
+test37.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:11 col:9\n']
+Pass!
+test38.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:9 col:10\n']
+Pass!
+test39.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:13 col:13\n']
+Pass!
+test40.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:11 col:6\n']
+Pass!
+test41.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:9 col:10\n']
+Pass!
+test42.java  :  ['0\n', 'Type check failed!\n', 'Not a boolean at line:13 col:11\n']
+Pass!
+test43.java  :  ['0\n', 'Type check failed!\n', 'Not a int[] at line:11 col:10\n']
+Pass!
+test44.java  :  ['0\n', 'Type check failed!\n', 'Not a int[] at line:11 col:7\n']
+Pass!
+test45.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:15 col:5\n']
+Pass!
+test46.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:9 col:10\n']
+Pass!
+test47.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:16 col:10\n']
+Pass!
+test48.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:15 col:10\n']
+Pass!
+test49.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:9 col:10\n']
+Pass!
+test50.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:16 col:15\n']
+Pass!
+test51.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:9 col:10\n']
+Pass!
+test52.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:9 col:9\n']
+Pass!
+test53.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:10 col:9\n']
+Pass!
+test54.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:13 col:11\n']
+Pass!
+test55.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test56.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test57.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test58.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test59.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:13 col:7\n']
+Pass!
+test60.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:17 col:7\n']
+Pass!
+test61.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:17 col:7\n']
+Pass!
+test62.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test63.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:17 col:10\n']
+Pass!
+test64.java  :  ['0\n', 'Type check failed!\n', 'Variable is not found i at line:11 col:2\n']
+Pass!
+test65.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:20 col:9\n']
+Pass!
+test66.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test67.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:10 col:9\n']
+Pass!
+test68.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:33 col:16\n']
+Pass!
+test69.java  :  ['0\n', 'Type check failed!\n', 'Class overload start at line:9 col:18\n']
+Pass!
+test70.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:14 col:14\n']
+Pass!
+test71.java  :  ['0\n', 'Type check failed!\n', 'Variable i duplicate definition at line:21 col:6\n']
+Pass!
+test72.java  :  ['0\n', 'Type check failed!\n', 'Extend type error NotPresent at line:7 col:7\n']
+Pass!
+test73.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test74.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test75.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test76.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test77.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test78.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test79.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test80.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test81.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test82.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test83.java  :  ['0\n', 'Type check failed!\n', 'Parameter wrong at line:14 col:16\n']
+Pass!
+test84.java  :  ['0\n', 'Type check failed!\n', 'Parameter wrong at line:14 col:16\n']
+Pass!
+test85.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test86.java  :  ['0\n', 'Type check failed!\n', 'Not an equal or subType at line:17 col:13\n']
+Pass!
+test87.java  :  ['0\n', 'Type check failed!\n', 'Not a int at line:13 col:16\n']
+Pass!
+test88.java  :  ['0\n', 'Type check failed!\n', 'Parameter wrong at line:9 col:10\n']
+Pass!
+test89.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test90.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test91.java  :  ['0\n', 'Type check failed!\n', 'Method is not found next at line:16 col:14\n']
+Pass!
+test92.java  :  ['0\n', 'Type check failed!\n', 'Method is not found next at line:24 col:14\n']
+Pass!
+test93.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test94.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test95.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test96.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test97.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test98.java  :  ['1\n', 'Program type checked successfully!\n']
+Pass!
+test99.java  :  ['1\n', 'Program type checked successfully!\n']
