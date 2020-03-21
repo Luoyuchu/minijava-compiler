@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lab1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/lab1/jtb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/lab1/javacc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
