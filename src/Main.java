@@ -1,12 +1,20 @@
 import java.io.*;
 
-import exception.TypeCheckException;
-import symbol.MClass;
-import symbol.MClassList;
-import typecheck.ErrorPrinter;
-import visitor.*;
-import syntaxtree.*;
-import java.util.Scanner;
+import minijava.MiniJavaParser;
+import minijava.ParseException;
+import minijava.TokenMgrError;
+import minijava.exception.DebugException;
+import minijava.exception.TypeCheckException;
+import minijava.syntaxtree.Identifier;
+import minijava.syntaxtree.Node;
+import minijava.syntaxtree.VarDeclaration;
+import minijava.visitor.BuildSymbolTableVisitor;
+import minijava.visitor.DepthFirstVisitor;
+import minijava.visitor.TypeCheckVisitor;
+import minijava.symbol.MClass;
+import minijava.symbol.MClassList;
+import minijava.typecheck.ErrorPrinter;
+
 
 class MyVisitor extends DepthFirstVisitor {
 	public void visit(Node n) {
@@ -29,27 +37,27 @@ public class Main {
 			MClassList allClassList = new MClassList();
 			Node root = new MiniJavaParser(in).Goal();
 			root.accept(new BuildSymbolTableVisitor(allClassList, errorPrinter), null);
-			MClass errorClass = new MClass();
+			MClass errorClass = new MClass("NOT_A_CLASS", null, -1, -1);
 			int ret = allClassList.checkClassExtend(errorClass);
 			if (ret != 0) {
+				if (errorClass.getName().equals("NOT_A_CLASS")) {
+					throw new DebugException();
+				}
 				errorPrinter.print((ret == 1 ? "Extend type error " : "Circle extend ") + errorClass.getName(), errorClass.getRow(), errorClass.getCol());
 				throw new TypeCheckException();
 			}
 			root.accept(new TypeCheckVisitor(allClassList, errorPrinter), null);
-			System.out.println(1);
-			System.out.println("Program type checked successfully!");
+			System.out.println("Program type checked successfully");
 		} catch (TypeCheckException e) {
-			System.out.println(0);
-			System.out.println("Type check failed!");
+			System.out.println("Type error");
 			errorPrinter.printAll();
+		} catch (RuntimeException e) {
+			System.out.println("There is some bug!!!");
 		} catch (ParseException e) {
-			System.out.println(0);
 			e.printStackTrace();
 		} catch (TokenMgrError e) {
-			System.out.println(0);
 			e.printStackTrace();
 		} catch (Exception e) {
-			System.out.println(0);
 			e.printStackTrace();
 		}
 	}

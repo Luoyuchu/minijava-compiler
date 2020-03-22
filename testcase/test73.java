@@ -4,7 +4,7 @@ class test73{
     }
 }
 
-class Test extends test73 {
+class Test extends test73 { // TE
 
     public int start(){
 	

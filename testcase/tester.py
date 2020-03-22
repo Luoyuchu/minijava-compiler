@@ -1,4 +1,4 @@
-order_o = r'"C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\jbr\bin\java.exe"' + r" -Dfile.encoding=UTF-8 " + r"-classpath C:\Users\luoyuchu\Desktop\Currrent_Semester\Compile_practicum\lab1\out\production\lab1 " + r'Main ' + r'C:\Users\luoyuchu\Desktop\Currrent_Semester\Compile_practicum\lab1\testcase'
+order_o = r'"C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\jbr\bin\java.exe"' + r" -Dfile.encoding=UTF-8 " + r"-classpath C:\Users\luoyuchu\Desktop\Currrent_Semester\Compile_practicum\lab\out\production\lab " + r'Main ' + r'C:\Users\luoyuchu\Desktop\Currrent_Semester\Compile_practicum\lab\testcase'
 
 import os
 import json
@@ -19,7 +19,7 @@ for it in tqdm.tqdm(range(len(lst)), ncols=50):
 	r = os.popen(order) 
 	info = r.readlines()
 	firstline = info[0].strip('\r\n')
-	if int(firstline) == answer:
+	if (firstline.find("successfully") != -1) == (answer == 1):
 		print("Pass!", file=rf)
 		cnt = cnt + 1
 	else:
